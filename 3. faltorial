@@ -1,0 +1,9 @@
+son=int(input("son="))
+
+
+print(f"{son} ning faktorialini topish")
+faktorial=1
+for i in range(son):
+  i+=1
+  faktorial*=i
+print(faktorial) 
