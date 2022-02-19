@@ -1,0 +1,4 @@
+son1=float(input("son1="))
+son2=float(input("son2="))
+
+print(f"summa={son1+son2}")
