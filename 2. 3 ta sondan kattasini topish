@@ -1,0 +1,11 @@
+son1=float(input("son1="))
+son2=float(input("son2="))
+son3=float(input("son3="))
+
+if son1>son2 and son1>son3:
+  max=son1
+if son2>son1 and son2>son3:
+  max=son2
+if son3>son1 and son3>son2:
+  max=son3    
+print(max)
